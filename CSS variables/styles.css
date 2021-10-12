@@ -11,6 +11,8 @@ body {
   font-family: 'helvetica neue', sans-serif;
   font-weight: 100;
   font-size: 50px;
+  margin: 0;
+  min-height: 100%;
 }
 
 .controls {
