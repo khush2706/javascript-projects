@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+body{
+  text-align: center;
+  height: 100%;
+  padding-top: 20%;
+  margin: 0;
+  font-family: "Noto Sans Display";
+  font-size: 20px;
+  transition: background 0.3s ease;
+}
+
+button{
+  background-color: black;
+  color: white;
+  padding: 20px 40px;
+  font-size: 25px;
+  border: none;
+}
+
+button:active{
+  transform: scale(0.98);
+}
