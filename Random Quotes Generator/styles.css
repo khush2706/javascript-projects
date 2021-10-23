@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url(https://media.istockphoto.com/photos/beautiful-chrysanthemums-picture-id1256862861?b=1&k=20&m=1256862861&s=170667a&w=0&h=BUijfqvYebLyufWc0Obfgc11TgWkMb0bHx0Nqb2a1vg=);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Dancing Script', cursive;
+}
+
+div {
+  height: 40%;
+  width: 40%;
+  text-align: center;
+  background: inherit;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  border: 1px solid #fff;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+div:before {
+  background: inherit;
+  box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.3);
+  filter: blur(7px);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border-radius: 15px;
+  left: -0.5px;
+}
+
+q {
+  position: relative;
+  z-index: 2;
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+  top: 20px;
+}
+
+button {
+  position: absolute;
+  bottom: 18%;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 10px;
+  border: none;
+  background: #FFB344;
+  font-size: larger;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+p {
+  position: relative;
+  z-index: 2;
+  font-size: 35px;
+  top: 110px;
+  text-align: right;
+  right: 10px;
+}
+
+button:active{
+  transform: scale(0.97);
+}
+
+@media (max-width: 992px) {
+  div{
+    width: 80%;
+  }
+
+  q,p{
+    font-size: 60px;
+  }
+
+  button{
+    width: 16rem;
+    height: 6rem;
+    font-size: 35px;
+    padding: 10px;
+  }
+}
