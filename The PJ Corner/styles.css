@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100vh;
+}
+body{
+  background: rgba(29, 138, 96, 0.795);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 30%;
+  height: auto;
+  border-radius: 30px;
+  background-color: rgba(13, 109, 72, 0.795);
+  padding: 30px;
+  font-size: 22px;
+  line-height: 2em;
+}
+button{
+  width: 90px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  background-color: rgba(24, 87, 64, 0.795);
+  font-weight: 500;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+button:active{
+  transform: scale(0.95);
+}
