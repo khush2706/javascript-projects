@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 198px;
+  height: 46px;
+  border: 2px solid rgb(180, 163, 130);
+  border-radius: 10px;
+  background-color: rgb(230, 213, 184);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin: 50px 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+button {
+  width: 112px;
+  height: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background-color: rgb(251 114 137 / 86%);
+  font-weight: 500;
+  box-shadow: rgb(17 17 26 / 5%) 0px 4px 16px, rgb(17 17 26 / 5%) 0px 8px 32px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
