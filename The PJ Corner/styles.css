@@ -39,3 +39,17 @@ button{
 button:active{
   transform: scale(0.95);
 }
+
+@media (max-width: 992px){
+  .card{
+    width: 60%;
+    font-size: 42px;
+  }
+
+  button{
+    width: 170px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+}
