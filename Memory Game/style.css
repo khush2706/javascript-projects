@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8146beab;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 440px;
+  width: 560px;
+}
+
+img {
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 26px;
+  font-size: 41px;
+}
+
+@media (max-width: 992px) {
+  img {
+    margin: 15px;
+    width: 95px;
+  }
+
+  .grid{
+    height: 444px;
+        width: 379px;
+    }
+
+    html,body{
+        width: 364px;
+    }
+  }
+
