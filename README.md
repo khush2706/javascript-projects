@@ -6,7 +6,7 @@
 
 ### About 
 
-This repository contains a bunch of beginner friendly projects that I am making while learning javascript. I've tried using the latest ES6 Javascript features while developing these projects. I try to update this repo regularly. Though all the projects are device responsive, I highly recommend viewing them on a desktop to get a better viewing. Also, for some examples make use of console.log() to enhance understanding.
+This repository contains a bunch of beginner friendly projects that I am making while learning javascript. I've tried using the latest ES6 Javascript features while developing these projects. I try to update this repo regularly. Though all the projects are device responsive, I highly recommend viewing them on a desktop for a better experience. Also, for some examples make use of console.log() to enhance understanding.
 
 
 
