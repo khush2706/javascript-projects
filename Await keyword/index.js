@@ -18,3 +18,5 @@ const rainbow = async () => {
     await delayedColorChange("blue", 1000);
     await delayedColorChange("purple", 1000);
 };
+
+rainbow();
