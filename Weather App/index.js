@@ -27,6 +27,7 @@ function displayWeather(data){
     document.querySelector(".temp").innerText = temp + "°";
     document.querySelector(".max p").innerText = temp_max + "°";
     document.querySelector(".min p").innerText = temp_min + "°";
+    document.querySelector(".card").classList.remove("loading");
 }
 
 
@@ -37,3 +38,10 @@ function search()
 
 
 document.querySelector("button").addEventListener("click", search);
+document.querySelector(".search-bar").addEventListener("keyup", function(event){
+    if(event.key == "Enter")
+    {
+        search();
+    }
+})
+
