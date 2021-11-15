@@ -60,14 +60,18 @@ button{
     font-family: inherit;
     font-size: 120%;
     letter-spacing: 4px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
 }
 
+.city, .description{
+    text-transform: uppercase;
+}
 h1{
     font-size: 60px;
     padding-left: 30px;
+    margin-top: 17px;
 }
 
 h2,h4,h1{
