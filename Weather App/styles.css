@@ -50,6 +50,14 @@ button{
     background: rgb(255 255 255 / 47%);
 }
 
+button:hover{
+    background:rgba(255, 255, 255, 0.788);
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
 .search-bar{
     border: none;
     outline: none;
@@ -58,16 +66,20 @@ button{
     background: rgb(255 255 255 / 18%);
     color: rgba(255, 255, 255, 0.863);
     font-family: inherit;
-    font-size: 120%;
+    font-size: 118%;
     letter-spacing: 4px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
 }
 
+.city, .description{
+    text-transform: uppercase;
+}
 h1{
     font-size: 60px;
     padding-left: 30px;
+    margin-top: 17px;
 }
 
 h2,h4,h1{
@@ -156,4 +168,8 @@ h5{
     background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
     left: 32.8%;
     top: 40%;
+}
+
+.card.loading{
+    visibility: hidden;
 }
