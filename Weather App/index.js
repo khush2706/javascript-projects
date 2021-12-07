@@ -13,7 +13,7 @@ function fetchWeather(city) {
       displayWeather(data);
     })
     .catch((e) => {
-      console.log("something went wrong");
+      alert("something went wrong");
     });
 }
 
