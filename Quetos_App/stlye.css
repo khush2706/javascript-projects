@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color: #4B9CFE;
+    --secondary-color: #006FD1;
+}
+
+body{
+    background: #212E3E;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 70vh;
+    background: var(--main-color);
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    color: #797d7f;
+    letter-spacing: 0.5px;
+    display:grid;
+    place-items: center;
+}
+.inner {
+    position: absolute;
+    height:100%;
+    width:80%;
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background:#fff;
+    border-radius: 5px;
+    overflow:hidden;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+}
+
+
+.number::before {
+    content: "";
+    position: absolute;
+    top: -130px;
+    right: -30px;
+    width: 90px;
+    height: 200px;
+    background: var(--secondary-color);
+    -webkit-transform: rotate(-45deg);
+    transform:rotate(-45deg);
+    z-index: -1;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.5);
+}
+
+.number{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin: 0;
+    top: 15px;
+    right: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.number img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -25px;
+    top: -7px;
+    cursor: pointer;
+    animation: rot 1s linear;
+}
+
+.number:hover img{
+    animation: rot 1s linear;
+}
+
+@keyframes rot {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+      transform:rotate(360deg);  
+    }
+}
+
+.quotes{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-size: 1.5rem;
+}
+.author{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+
+.button{
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    font-size: 1.4rem;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: var(--secondary-color);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
